@@ -1,0 +1,20 @@
+{
+  "name": "restful_web_services",
+  "version": "1.0.0",
+  "description": "Web Services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js WEB-SERVICES",
+    "stop": "killall WEB-SERVICES"
+  },
+  "author": "Sampath Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.16.3",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2",
+    "uuid": "^9.0.0",
+    "winston": "^3.1.0"
+  }
+}
