@@ -1,12 +1,14 @@
 const uuid = require('uuid');
+const mysql = require("mysql");
+
 const { logger } = require('../resources/logging.js');
 
 var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: 'root',
-    port: 3306, //change port
-    database: 'nodeexpressfriends1' //change DB name
+    port: 3300, //change port
+    database: 'calculateageDB' //change DB name
 })
 
 connection.connect(error => {
